@@ -4,6 +4,8 @@ import "./App.css";
 import "./css/menu.css";
 import Home from "./pages/Home";
 import Store from "./pages/Store";
+import Mac from "./pages/Mac";
+import IPad from "./pages/iPad";
 
 function App() {
   // const title = "Global IT";
@@ -22,8 +24,12 @@ function App() {
           <li>
             <Link to="/store">Store</Link>
           </li>
-          <li>Mac</li>
-          <li>iPad</li>
+          <li>
+            <Link to="/mac">Mac</Link>
+          </li>
+          <li>
+            <Link to="/ipad">IPad</Link>
+          </li>
           <li>iPhone</li>
           <li>Watch</li>
           <li>AirPods</li>
@@ -37,6 +43,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/store" element={<Store />} />
+        <Route path="/mac" element={<Mac />} />
+        <Route path="/ipad" element={<IPad />} />
       </Routes>
 
       {/* 본문 JSX에서 변수 사용 및 스타일 주기 위아래 문장 동일*/}
