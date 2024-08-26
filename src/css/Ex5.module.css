@@ -1,0 +1,22 @@
+.m_list {
+  list-style: none;
+}
+.m_list li {
+  display: inline-block;
+  width: 150px;
+  color: rgb(32, 185, 15);
+  text-shadow: 1px 1px 1px black;
+}
+.m_list li:hover {
+  color: red;
+  cursor: pointer;
+}
+.table {
+  width: 400px;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+.table td,
+.table th {
+  border: 1px solid black;
+}
